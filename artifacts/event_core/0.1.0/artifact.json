@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "scope": "REVIEW_CONTRACT_NOT_INSTALLABLE",
+  "publicationAuthorized": false,
+  "repository": {
+    "tagCommit": null,
+    "fullName": "Dafovi/CartaCraft-Releases"
+  },
+  "artifact": {
+    "id": "event_core",
+    "version": "0.1.0",
+    "minecraft": "1.21.1",
+    "neoforge": "21.1.256",
+    "java": "21",
+    "filename": "event_core-0.1.0.jar",
+    "size": 22700,
+    "sha256": "85ba155e5701be6e8c4b9befa8e6be030503e67196c7bf928b0c4f7c824f2249"
+  },
+  "release": {
+    "proposedTag": "event-core-v0.1.0",
+    "hypotheticalDownloadUrl": "https://github.com/Dafovi/CartaCraft-Releases/releases/download/event-core-v0.1.0/event_core-0.1.0.jar",
+    "originValidated": false,
+    "proposedAssets": [
+      "event_core-0.1.0.jar",
+      "event_core-0.1.0.jar.sha256",
+      "event_core-0.1.0-PARTICIPANT_TERMS.md",
+      "TEMPLATE_LICENSE.txt"
+    ]
+  },
+  "terms": {
+    "status": "SUBSTANCE_APPROVED_PENDING_PUBLICATION_AND_EFFECTIVE_DATE",
+    "ownContributionsLicensor": "Dafovi",
+    "authorityConfirmed": true,
+    "effective": false
+  },
+  "documentationPublicationAuthorized": true
+}

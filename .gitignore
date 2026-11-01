@@ -1,0 +1,21 @@
+# Los binarios futuros se entregarían como assets, nunca en el árbol Git.
+*.jar
+*.zip
+*.exe
+*.msi
+*.pdb
+*.dll
+*.log
+*.tmp
+*.temp
+.env
+.env.*
+*.key
+*.pem
+*.pfx
+*.p12
+secrets/
+build/
+target/
+dist/
+node_modules/
