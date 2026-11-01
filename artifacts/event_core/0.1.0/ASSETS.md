@@ -7,7 +7,8 @@
 | event_core-0.1.0-PARTICIPANT_TERMS.md | Sí | Sí | Definitivos; vigentes desde publicación de la release |
 | TEMPLATE_LICENSE.txt | Sí | Sí | Bytes originales del MIT de NeoForged MDK |
 
-Verificación de assets públicos y descarga: **PENDING** en este commit preparatorio.
+Verificación de los cuatro assets públicos y su descarga: **PASS**.
+Tamaños, SHA-256 e IDs registrados en [el acta](publication-verification.json).
 El borrador histórico pending, contrato, README y políticas no son assets adicionales.
 No se adjunta ZIP, tercero, código privado, logs ni otro binario.
 El sidecar no constituye una firma y no reemplaza el hash confiable del inventario.

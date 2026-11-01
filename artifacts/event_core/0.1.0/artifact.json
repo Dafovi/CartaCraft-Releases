@@ -3,7 +3,7 @@
   "scope": "REVIEW_CONTRACT_NOT_INSTALLABLE",
   "publicationAuthorized": true,
   "repository": {
-    "tagCommit": null,
+    "tagCommit": "7eab05c800140702b53b93eaf40ab93053dfe6f2",
     "fullName": "Dafovi/CartaCraft-Releases",
     "tagTargetRule": "NEW_COMMIT_CONTAINING_FINAL_TERMS_VERIFIED_BEFORE_TAG_CREATION"
   },
@@ -19,22 +19,27 @@
   },
   "release": {
     "proposedTag": "event-core-v0.1.0",
-    "hypotheticalDownloadUrl": "https://github.com/Dafovi/CartaCraft-Releases/releases/download/event-core-v0.1.0/event_core-0.1.0.jar",
-    "originValidated": false,
+    "originValidated": true,
     "proposedAssets": [
       "event_core-0.1.0.jar",
       "event_core-0.1.0.jar.sha256",
       "event_core-0.1.0-PARTICIPANT_TERMS.md",
       "TEMPLATE_LICENSE.txt"
     ],
-    "status": "AUTHORIZED_PUBLICATION_PENDING",
-    "verificationStatus": "PENDING"
+    "status": "PUBLISHED",
+    "verificationStatus": "PASS",
+    "downloadUrl": "https://github.com/Dafovi/CartaCraft-Releases/releases/download/event-core-v0.1.0/event_core-0.1.0.jar",
+    "releaseId": 430286227,
+    "releaseUrl": "https://github.com/Dafovi/CartaCraft-Releases/releases/tag/event-core-v0.1.0",
+    "publishedAtUtc": "2026-11-01T01:05:33Z",
+    "verificationReceipt": "publication-verification.json"
   },
   "terms": {
-    "status": "FINAL_APPROVED_EFFECTIVE_UPON_PUBLIC_RELEASE_PUBLICATION",
+    "status": "EFFECTIVE_SINCE_PUBLIC_RELEASE_PUBLICATION",
     "ownContributionsLicensor": "Dafovi",
     "authorityConfirmed": true,
-    "effectiveFrom": "PUBLIC_RELEASE_PUBLICATION"
+    "effectiveFrom": "PUBLIC_RELEASE_PUBLICATION",
+    "effectiveSinceUtc": "2026-11-01T01:05:33Z"
   },
   "documentationPublicationAuthorized": true
 }

@@ -10,9 +10,12 @@ Minecraft **1.21.1**, NeoForge **21.1.256**, Java **21**.
 Archivo event_core-0.1.0.jar, **22700 bytes**, SHA-256:
 `85ba155e5701be6e8c4b9befa8e6be030503e67196c7bf928b0c4f7c824f2249`.
 
-Dafovi autorizó publicar una única release y sus cuatro assets. En este commit
-la publicación y la verificación de descarga remota todavía están **PENDING**.
-Ruta autorizada para esa publicación, todavía no origen validado en este estado:
+[Release pública event-core-v0.1.0](https://github.com/Dafovi/CartaCraft-Releases/releases/tag/event-core-v0.1.0),
+publicada el 2026-10-31 a las 20:05:33 de Colombia (2026-11-01 01:05:33 UTC).
+**PASS:** los cuatro assets se descargaron y cotejaron tras publicar. El JAR
+tiene el tamaño y SHA-256 aprobados. [Acta de verificación](artifacts/event_core/0.1.0/publication-verification.json).
+Los términos definitivos están en vigor desde esa publicación.
+Origen HTTPS verificado para esta versión exacta:
 `https://github.com/Dafovi/CartaCraft-Releases/releases/download/event-core-v0.1.0/event_core-0.1.0.jar`.
 No resolver versiones mediante latest ni reemplazar assets publicados.
 
@@ -20,7 +23,7 @@ No resolver versiones mediante latest ni reemplazar assets publicados.
 
 - [Políticas de versiones, integridad y retirada](POLICIES.md).
 - [Publicación manual y autorización](PUBLISHING.md).
-- [Verificación de descarga y estado pendiente](VERIFYING.md).
+- [Verificación de descarga y evidencia](VERIFYING.md).
 - [Contrato documental, no catálogo instalable](artifacts/event_core/0.1.0/artifact.json).
 - [Cuatro assets autorizados](artifacts/event_core/0.1.0/ASSETS.md) y
   [notas de release](artifacts/event_core/0.1.0/RELEASE_NOTES.md).

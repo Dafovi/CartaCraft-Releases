@@ -3,8 +3,9 @@
 2026-10-31: Dafovi, titular de las aportaciones propias, autoriza una release
 pública event-core-v0.1.0 en Dafovi/CartaCraft-Releases, con exactamente cuatro
 assets y términos definitivos vigentes desde su publicación. No autoriza modificar
-el catálogo, launcher, servidor u otros repositorios. Verificación remota: PENDING
-en este commit previo a publicar; no se afirma un origen validado todavía.
+el catálogo, launcher, servidor u otros repositorios. Publicación y descarga real
+completadas: ver el acta en artifacts/event_core/0.1.0/publication-verification.json.
+El tag conserva el commit previo con los términos definitivos; no se mueve.
 
 ## Secuencia controlada
 

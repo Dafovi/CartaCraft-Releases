@@ -33,13 +33,12 @@ if ((Get-FileHash -LiteralPath $jar.FullName -Algorithm SHA256).Hash.ToLowerInva
 }
 ```
 
-## Verificación pública: PENDING hasta descarga posterior a publicación
+## Verificación pública: PASS registrado tras publicación
 
 1. Verificar repositorio público exacto `Dafovi/CartaCraft-Releases`, propietario
    Dafovi y commit aprobado. Consultar API GitHub por **tag exacto**
    `https://api.github.com/repos/Dafovi/CartaCraft-Releases/releases/tags/event-core-v0.1.0`.
-   Ruta autorizada para publicar; existencia y descarga aún no verificadas en este
-   commit de preparación. No usar latest o búsqueda
+   Existencia, tag y descarga verificados en el acta posterior. No usar latest o búsqueda
    por versión aproximada. Rechazar 404, borrador, tag diferente o commit incorrecto;
    resolver la referencia del tag al commit completo, no fiarse de target_commitish
    si contiene un nombre de rama. Registrar ID de release y asset, sin tokens.
@@ -70,8 +69,28 @@ if ((Get-FileHash -LiteralPath $jar.FullName -Algorithm SHA256).Hash.ToLowerInva
    tokens ni datos de cuenta. Conservar el archivo fuera de instalaciones hasta
    autorización de integración; no ejecutarlo como parte de esta verificación.
 
-No hay descargador implementado ni ensayos de red realizados en esta fase.
-El operador futuro debe usar un transporte que aplique esos controles; sin él,
-la verificación remota queda BLOCKED. La publicación ya está autorizada; solo
-la ejecución y evidencia posterior de descarga están pendientes. Un navegador que complete una descarga
-por sí solo no acredita los límites anteriores. Este documento no los da por PASS.
+## Acta ejecutada
+
+PASS: release pública 430286227, tag event-core-v0.1.0 sobre el commit
+7eab05c800140702b53b93eaf40ab93053dfe6f2; cuatro assets exactos descargados
+sin credenciales por HTTPS y cotejados contra los originales aprobados.
+Ver [acta JSON](artifacts/event_core/0.1.0/publication-verification.json) con IDs,
+URLs estables, tamaños, hashes y fecha UTC de comprobación. El JAR descargado
+es de 22700 bytes y coincide con el inventario, sin ejecución o instalación.
+
+Se usó una sonda temporal local ajena al historial: TLS estándar, sin cookies o
+autenticación en descargas, redirects manuales y allowlist exacta, conexión 10 s,
+intento 120 s, máximo tres intentos, límite de bytes antes de escribir y hash
+antes de publicar el temporal. Cada asset requirió un intento y un redirect:
+github.com → release-assets.githubusercontent.com. No se registraron URLs firmadas.
+Los otros tres assets también coincidieron byte a byte con sus originales.
+
+Incidencia resuelta: consultar el borrador por tag devolvió 404 antes de publicarlo;
+se inspeccionó el único borrador mediante listado autenticado/ID y se validaron
+los cuatro assets antes de hacerlo público. La consulta por tag público y las
+cuatro descargas posteriores pasaron. No se creó otra release ni se reemplazaron assets.
+
+Sin FAIL pendientes en esta publicación. Cambiar el catálogo o integrar el launcher
+continúa BLOCKED por falta de autorización posterior. No se ejecutó Minecraft ni
+se repitieron ensayos funcionales. Los controles de reintento son límites de la
+sonda; no se afirma haber provocado todos los errores posibles en producción.

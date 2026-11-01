@@ -1,0 +1,64 @@
+{
+  "result": "PASS",
+  "verifiedAtUtc": "2026-10-31T20:05:47.435275-05:00",
+  "repository": "Dafovi/CartaCraft-Releases",
+  "targetCommit": "7eab05c800140702b53b93eaf40ab93053dfe6f2",
+  "tag": "event-core-v0.1.0",
+  "releaseId": 430286227,
+  "releaseUrl": "https://github.com/Dafovi/CartaCraft-Releases/releases/tag/event-core-v0.1.0",
+  "publishedAtUtc": "2026-11-01T01:05:33Z",
+  "assets": [
+    {
+      "name": "event_core-0.1.0.jar",
+      "assetId": 696935879,
+      "size": 22700,
+      "sha256": "85ba155e5701be6e8c4b9befa8e6be030503e67196c7bf928b0c4f7c824f2249",
+      "url": "https://github.com/Dafovi/CartaCraft-Releases/releases/download/event-core-v0.1.0/event_core-0.1.0.jar",
+      "httpsHosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "attempts": 1,
+      "result": "PASS"
+    },
+    {
+      "name": "event_core-0.1.0.jar.sha256",
+      "assetId": 696935876,
+      "size": 87,
+      "sha256": "f23a6c8baf9d5a496e6316ee315fbc253075ca6ae0be3f7eb3d8aaa3d272a56e",
+      "url": "https://github.com/Dafovi/CartaCraft-Releases/releases/download/event-core-v0.1.0/event_core-0.1.0.jar.sha256",
+      "httpsHosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "attempts": 1,
+      "result": "PASS"
+    },
+    {
+      "name": "event_core-0.1.0-PARTICIPANT_TERMS.md",
+      "assetId": 696935875,
+      "size": 2615,
+      "sha256": "cf3c66b2daf7be2770d64c8ff67af35442133cb056cf1512ed702a2272339eff",
+      "url": "https://github.com/Dafovi/CartaCraft-Releases/releases/download/event-core-v0.1.0/event_core-0.1.0-PARTICIPANT_TERMS.md",
+      "httpsHosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "attempts": 1,
+      "result": "PASS"
+    },
+    {
+      "name": "TEMPLATE_LICENSE.txt",
+      "assetId": 696935878,
+      "size": 1159,
+      "sha256": "dac9ce41f6f46e455f31aea51c366f6ffd2a4be8486eb1b1cb4bd99afb584297",
+      "url": "https://github.com/Dafovi/CartaCraft-Releases/releases/download/event-core-v0.1.0/TEMPLATE_LICENSE.txt",
+      "httpsHosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "attempts": 1,
+      "result": "PASS"
+    }
+  ]
+}
