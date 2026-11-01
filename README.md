@@ -1,34 +1,40 @@
 # CartaCraft-Releases
 
-Repositorio documental público de distribución de artefactos propios de
-CartaCraft: [Dafovi/CartaCraft-Releases](https://github.com/Dafovi/CartaCraft-Releases).
-**Estado inicial: solo documentación. No hay JAR, tags ni releases publicados.**
+Distribución de artefactos propios de CartaCraft. No se alojan mods Minecraft de
+terceros, el cliente del juego, datos de jugadores ni código fuente privado.
+La [web CartaCraft](https://github.com/Dafovi/CartaCraft) permanece independiente.
 
-Primer artefacto previsto: event_core 0.1.0 para Minecraft 1.21.1, NeoForge
-21.1.256 y Java 21. Su publicación todavía no está autorizada. No se alojan mods
-Minecraft de terceros, el cliente del juego, datos de jugadores ni código privado.
-La [web CartaCraft](https://github.com/Dafovi/CartaCraft) es un repositorio separado.
+## event_core 0.1.0
 
-## Documentos
+Minecraft **1.21.1**, NeoForge **21.1.256**, Java **21**.
+Archivo event_core-0.1.0.jar, **22700 bytes**, SHA-256:
+`85ba155e5701be6e8c4b9befa8e6be030503e67196c7bf928b0c4f7c824f2249`.
 
-- [Políticas de versiones, integridad y derechos](POLICIES.md).
-- [Procedimiento de publicación futura](PUBLISHING.md).
-- [Verificación posterior pendiente](VERIFYING.md).
-- [Contrato documental no instalable](artifacts/event_core/0.1.0/artifact.json).
-- [Lista de assets previstos](artifacts/event_core/0.1.0/ASSETS.md) y
-  [notas candidatas de release](artifacts/event_core/0.1.0/RELEASE_NOTES.md).
-- [Términos pendientes de publicación y entrada en vigor](artifacts/event_core/0.1.0/PARTICIPANT_TERMS.pending.md),
-  [MIT íntegro de la plantilla NeoForged](artifacts/event_core/0.1.0/TEMPLATE_LICENSE.txt)
+Dafovi autorizó publicar una única release y sus cuatro assets. En este commit
+la publicación y la verificación de descarga remota todavía están **PENDING**.
+Ruta autorizada para esa publicación, todavía no origen validado en este estado:
+`https://github.com/Dafovi/CartaCraft-Releases/releases/download/event-core-v0.1.0/event_core-0.1.0.jar`.
+No resolver versiones mediante latest ni reemplazar assets publicados.
+
+## Documentos y derechos
+
+- [Políticas de versiones, integridad y retirada](POLICIES.md).
+- [Publicación manual y autorización](PUBLISHING.md).
+- [Verificación de descarga y estado pendiente](VERIFYING.md).
+- [Contrato documental, no catálogo instalable](artifacts/event_core/0.1.0/artifact.json).
+- [Cuatro assets autorizados](artifacts/event_core/0.1.0/ASSETS.md) y
+  [notas de release](artifacts/event_core/0.1.0/RELEASE_NOTES.md).
+- [Términos definitivos](artifacts/event_core/0.1.0/event_core-0.1.0-PARTICIPANT_TERMS.md),
+  aplicables desde la publicación pública de la release.
+- [MIT íntegro de la plantilla NeoForged](artifacts/event_core/0.1.0/TEMPLATE_LICENSE.txt)
   y [checksum aprobado](artifacts/event_core/0.1.0/event_core-0.1.0.jar.sha256).
 
-Dafovi confirmó la titularidad y autoridad sobre sus aportaciones propias y aprobó
-el contenido sustantivo de los términos. **Los términos aún no están en vigor**;
-esta publicación documental no autoriza descargar un binario todavía inexistente.
-No se inventa una identidad legal ni se declara MIT para todo el mod o repositorio.
+Dafovi confirmó titularidad y autoridad sobre sus aportaciones propias. No se
+concede redistribución, modificación, rehosting o comercialización de ellas;
+los derechos MIT y de terceros permanecen intactos. No hay licencia MIT general
+sobre el mod o repositorio. Los archivos fuente automáticos de GitHub contienen
+esta documentación de distribución, no el código de event_core.
 
-artifact.json es una referencia documental, no un catálogo para el launcher.
-El hash fija los bytes aprobados; no es una firma. Ninguna ruta de release futura
-representa una descarga existente o verificada. Publicar el JAR, crear tags/releases
-y actualizar el catálogo requieren autorización separada. No hay workflows ni
-publicación automática. Los archivos fuente automáticos de una release futura
-serían documentos de este repositorio, no el código fuente de event_core.
+Un SHA-256 confirma coincidencia con el inventario aprobado; no es una firma.
+Publicar el mod no autoriza distribuir el modpack completo, cambiar el catálogo,
+integrar el launcher ni habilitar Jugar. No hay workflows o publicación automática.

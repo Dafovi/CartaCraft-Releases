@@ -1,27 +1,32 @@
 # event_core 0.1.0 · Minecraft 1.21.1 / NeoForge 21.1.256
 
-**BORRADOR DE NOTAS — NO PUBLICADO.** Tag propuesto event-core-v0.1.0;
-commit del repositorio de distribución pendiente de selección/aprobación.
-Java 21 requerido. Artefacto propio de CartaCraft; no incluye Minecraft ni mods
-de terceros y no concede derechos sobre ellos.
+Artefacto propio de CartaCraft. Tag fijo: **event-core-v0.1.0**. Requiere Java 21.
 
-Se propone entregar el mismo binario previamente seleccionado para CartaCraft,
-sin recompilación, firma ni reempaquetado: event_core-0.1.0.jar, 22700 bytes.
-SHA-256: `85ba155e5701be6e8c4b9befa8e6be030503e67196c7bf928b0c4f7c824f2249`.
-Contiene la base administrativa existente del evento; no incorpora reglas nuevas.
+Archivo: **event_core-0.1.0.jar**, **22700 bytes**. SHA-256 aprobado:
+`85ba155e5701be6e8c4b9befa8e6be030503e67196c7bf928b0c4f7c824f2249`.
 
-Procedencia: binario original del proyecto conservado y verificado contra el
-inventario aprobado por su titular. No se distribuyen código privado ni historial
-de desarrollo. No se proporciona atestación firmada fuente-binario; el JAR no
-declara un commit de build.
+Se entrega el binario original previamente seleccionado y verificado por el
+proyecto, sin recompilación, firma, reempaquetado o cambio de funcionalidad.
+Incluye la base administrativa existente del evento. No se distribuyen fuentes
+privadas ni se afirma una atestación firmada o build reproducible fuente-binario.
 
-Consultar términos **aprobados** para participantes y TEMPLATE_LICENSE.txt como
-assets separados. Los primeros no revocan los derechos MIT de la plantilla MDK.
-Dafovi confirmó titularidad/autoridad y aprobó el contenido sustantivo de los
-términos; su publicación y entrada en vigor siguen pendientes. Estas notas no
-conceden permiso efectivo ni afirman que el JAR esté disponible.
+Dafovi confirmó titularidad y autoridad sobre sus aportaciones propias y autorizó
+esta distribución. **Los términos definitivos para participantes son aplicables
+DESDE LA PUBLICACIÓN PÚBLICA DE ESTA RELEASE.** Permiten descarga, instalación,
+ejecución gratuita para participar en CartaCraft y conservación de copia local;
+no conceden permisos adicionales de modificación, redistribución, rehosting o
+comercialización sobre las aportaciones propias. Se conservan los derechos
+legales aplicables y MIT de la plantilla NeoForged MDK, cuyo aviso íntegro acompaña
+al mod. Consultar los textos completos en los assets; no hay licencia MIT general.
 
-Los archivos de código fuente automáticos de esta release corresponderán al
-repositorio de distribución, no al código de event_core. No usar latest ni
-assets de otra versión. La verificación de descarga pública y su acta quedan
-pendientes de publicación autorizada; no se afirma que exista un origen validado.
+Assets: event_core-0.1.0.jar, event_core-0.1.0.jar.sha256,
+event_core-0.1.0-PARTICIPANT_TERMS.md y TEMPLATE_LICENSE.txt.
+SHA-256 verifica integridad contra el inventario aprobado; no es firma digital.
+La comprobación de descarga pública es posterior a publicar y no se da por realizada
+por estas notas. No usar latest ni versiones alternativas para seleccionar el archivo.
+
+No se incluyen Minecraft, mods de terceros, recursos artísticos o permisos sobre
+ellos. No existe respaldo de Mojang, Microsoft o NeoForged. Los archivos fuente
+que GitHub adjunta automáticamente contienen documentación de este repositorio
+de distribución, no el código fuente de event_core. Esta publicación no autoriza
+el modpack completo, cambiar el catálogo o launcher ni habilitar Jugar.

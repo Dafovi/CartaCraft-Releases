@@ -1,39 +1,36 @@
-# Publicación futura de event_core — NO AUTORIZADA NI EJECUTADA
+# Publicación autorizada de event_core 0.1.0
 
-## Estado y puerta previa
+2026-10-31: Dafovi, titular de las aportaciones propias, autoriza una release
+pública event-core-v0.1.0 en Dafovi/CartaCraft-Releases, con exactamente cuatro
+assets y términos definitivos vigentes desde su publicación. No autoriza modificar
+el catálogo, launcher, servidor u otros repositorios. Verificación remota: PENDING
+en este commit previo a publicar; no se afirma un origen validado todavía.
 
-El propietario Dafovi autorizó crear este repositorio público independiente y
-publicar únicamente documentación en main. Confirmó titularidad/autoridad de sus
-aportaciones propias y aprobó el contenido sustantivo de los términos, que siguen
-pendientes de publicación y entrada en vigor. No hay autorización para JAR, tags,
-releases, ni siquiera borradores, o integración al catálogo.
+## Secuencia controlada
 
-## Procedimiento manual tras una autorización separada
+1. Exigir ambos repositorios limpios y main local/remota sincronizadas; comprobar
+   cuenta Dafovi, remoto exacto y ausencia de tag/release. Ante conflicto, detenerse
+   sin sobrescribir ni cambiar credenciales, permisos o protecciones.
+2. Verificar original event_core-0.1.0.jar: 22700 bytes y SHA-256 aprobado. No
+   recompilar, firmar, reempaquetar o incorporarlo al historial Git. Cotejar el
+   checksum y MIT original; revisar términos sin ampliar su permiso sustantivo.
+3. Revisar diff completo; registrar documentos definitivos en un nuevo commit de
+   main y subir solo esa rama. Registrar su SHA completo como objetivo del tag;
+   no usar el commit inicial ni un commit privado del código del mod.
+4. Crear y subir únicamente event-core-v0.1.0 apuntando a ese commit verificado.
+   Comprobar de nuevo que no hay release previa; no mover tags ni reemplazar assets.
+5. Preparar un único borrador de release con ese tag ya existente. Adjuntar solo
+   los cuatro assets de ASSETS.md. Revisar nombres únicos, estado uploaded, tamaño
+   y digest de cada asset contra los originales. Si falta alguno, no hacerla pública.
+6. Publicar el borrador completo con el título exacto de RELEASE_NOTES.md. Los
+   términos entran en vigor en ese momento. No usar latest como selector de versión.
+7. Ejecutar VERIFYING.md: descargar los cuatro assets con controles de transporte,
+   cotejar sus bytes y registrar acta pública sin secretos. Si falla, informar
+   FAIL/BLOCKED; no alterar el JAR, el inventario o los assets para ocultarlo.
+8. Registrar únicamente evidencia documental posterior en main, sin mover el tag
+   de la release. Catálogo/launcher siguen sujetos a autorización independiente.
 
-1. Obtener autorización explícita para el tag event-core-v0.1.0, su commit objetivo
-   completo en este repositorio, la release y sus cuatro assets. No asumir que la
-   rama main o este commit inicial quedan elegidos por publicar documentación.
-2. Confirmar la versión final de los términos y su entrada en vigor; conservar
-   el texto sustantivo aprobado y las excepciones MIT/terceros. El asset final se
-   llamará event_core-0.1.0-PARTICIPANT_TERMS.md. El documento pending actual no
-   constituye una autorización efectiva de uso.
-3. Verificar la copia original aprobada del JAR: event_core-0.1.0.jar, 22700 bytes,
-   SHA-256 del contrato. No recompilar, firmar, reempaquetar ni incluirlo en Git.
-   Cotejar checksum y aviso MIT completos. Revisar ausencia de secretos y fuentes
-   privadas en cada documento y asset.
-4. Comprobar propietario/nombre del repositorio y que tag/release no existan.
-   Si existen, detenerse; no sobrescribir assets, mover tags, fusionar o forzar.
-5. Solo bajo esa autorización nueva, preparar manualmente la release con tag y
-   commit confirmados. Adjuntar exclusivamente los cuatro archivos de ASSETS.md;
-   no incluir terceros, cliente Minecraft, fuentes privadas o un ZIP agregado.
-6. Revisar notas de procedencia y compatibilidad, términos efectivos y aviso MIT.
-   Aclarar que los archivos fuente automáticos de GitHub contienen documentación
-   de distribución, no el código fuente del mod. Publicar dentro del permiso dado,
-   sin usar latest como resolución del consumidor.
-7. Ejecutar VERIFYING.md y registrar el acta posterior. Si falla, detener cualquier
-   promoción al catálogo; no cambiar el hash confiable ni sustituir silenciosamente
-   el asset. Tratar corrección/retirada según POLICIES.md y autorización del dueño.
-
-El origen se valida solo después de una descarga pública real comprobada.
-Publicar documentación o, posteriormente, el JAR no autoriza por sí mismo cambiar
-el catálogo, integrar el launcher o habilitar Jugar. No hay automatización de publicación.
+No subir terceros, ZIP de modpacks, instaladores, código privado, logs ni datos
+personales. Los archivos fuente automáticos de GitHub corresponden a este repo
+de distribución. No prueban compilación reproducible ni contienen el código del mod.
+No hay autorización para una segunda release ni retirada destructiva de objetos.

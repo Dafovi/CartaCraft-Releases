@@ -1,10 +1,11 @@
 {
   "schemaVersion": 1,
   "scope": "REVIEW_CONTRACT_NOT_INSTALLABLE",
-  "publicationAuthorized": false,
+  "publicationAuthorized": true,
   "repository": {
     "tagCommit": null,
-    "fullName": "Dafovi/CartaCraft-Releases"
+    "fullName": "Dafovi/CartaCraft-Releases",
+    "tagTargetRule": "NEW_COMMIT_CONTAINING_FINAL_TERMS_VERIFIED_BEFORE_TAG_CREATION"
   },
   "artifact": {
     "id": "event_core",
@@ -25,13 +26,15 @@
       "event_core-0.1.0.jar.sha256",
       "event_core-0.1.0-PARTICIPANT_TERMS.md",
       "TEMPLATE_LICENSE.txt"
-    ]
+    ],
+    "status": "AUTHORIZED_PUBLICATION_PENDING",
+    "verificationStatus": "PENDING"
   },
   "terms": {
-    "status": "SUBSTANCE_APPROVED_PENDING_PUBLICATION_AND_EFFECTIVE_DATE",
+    "status": "FINAL_APPROVED_EFFECTIVE_UPON_PUBLIC_RELEASE_PUBLICATION",
     "ownContributionsLicensor": "Dafovi",
     "authorityConfirmed": true,
-    "effective": false
+    "effectiveFrom": "PUBLIC_RELEASE_PUBLICATION"
   },
   "documentationPublicationAuthorized": true
 }

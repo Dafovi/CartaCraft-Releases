@@ -33,12 +33,13 @@ if ((Get-FileHash -LiteralPath $jar.FullName -Algorithm SHA256).Hash.ToLowerInva
 }
 ```
 
-## Verificación pública futura: BLOCKED hasta publicación autorizada
+## Verificación pública: PENDING hasta descarga posterior a publicación
 
 1. Verificar repositorio público exacto `Dafovi/CartaCraft-Releases`, propietario
    Dafovi y commit aprobado. Consultar API GitHub por **tag exacto**
    `https://api.github.com/repos/Dafovi/CartaCraft-Releases/releases/tags/event-core-v0.1.0`.
-   Es una ruta hipotética, no consultada en esta fase. No usar latest o búsqueda
+   Ruta autorizada para publicar; existencia y descarga aún no verificadas en este
+   commit de preparación. No usar latest o búsqueda
    por versión aproximada. Rechazar 404, borrador, tag diferente o commit incorrecto;
    resolver la referencia del tag al commit completo, no fiarse de target_commitish
    si contiene un nombre de rama. Registrar ID de release y asset, sin tokens.
@@ -71,5 +72,6 @@ if ((Get-FileHash -LiteralPath $jar.FullName -Algorithm SHA256).Hash.ToLowerInva
 
 No hay descargador implementado ni ensayos de red realizados en esta fase.
 El operador futuro debe usar un transporte que aplique esos controles; sin él,
-la verificación remota queda BLOCKED. Un navegador que complete una descarga
+la verificación remota queda BLOCKED. La publicación ya está autorizada; solo
+la ejecución y evidencia posterior de descarga están pendientes. Un navegador que complete una descarga
 por sí solo no acredita los límites anteriores. Este documento no los da por PASS.

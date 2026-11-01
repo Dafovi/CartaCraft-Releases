@@ -1,20 +1,16 @@
-# Assets propuestos de event-core-v0.1.0
+# Cuatro assets autorizados — event-core-v0.1.0
 
-| Nombre futuro exacto | En Git del repositorio de distribución | Asset de release | Estado actual |
+| Nombre exacto | En historial Git | Asset autorizado | Comprobación previa |
 | --- | --- | --- | --- |
-| event_core-0.1.0.jar | No | Sí | No publicado; fuera del repositorio Git |
-| event_core-0.1.0.jar.sha256 | Sí | Sí | Preparado desde hash aprobado, sin descarga |
-| event_core-0.1.0-PARTICIPANT_TERMS.md | Sí, tras aprobación | Sí | Contenido sustantivo aprobado; documento pending sin vigencia |
-| TEMPLATE_LICENSE.txt | Sí | Sí | Copia íntegra del aviso MIT de la plantilla |
+| event_core-0.1.0.jar | No | Sí | Original, 22700 bytes, SHA-256 aprobado |
+| event_core-0.1.0.jar.sha256 | Sí | Sí | Hash aprobado, dos espacios, nombre exacto y LF |
+| event_core-0.1.0-PARTICIPANT_TERMS.md | Sí | Sí | Definitivos; vigentes desde publicación de la release |
+| TEMPLATE_LICENSE.txt | Sí | Sí | Bytes originales del MIT de NeoForged MDK |
 
-README, políticas, procedimientos, contrato, esta lista y notas pueden permanecer
-solo en el repositorio. Los cuatro assets deben acompañar al JAR para que los
-participantes no dependan de una rama cambiante para obtener sus avisos.
-No presentar el documento pending como permiso efectivo ni publicar un ZIP con binarios.
+Verificación de assets públicos y descarga: **PENDING** en este commit preparatorio.
+El borrador histórico pending, contrato, README y políticas no son assets adicionales.
+No se adjunta ZIP, tercero, código privado, logs ni otro binario.
+El sidecar no constituye una firma y no reemplaza el hash confiable del inventario.
 
-El checksum contiene exactamente el SHA-256 aprobado, dos espacios y el nombre
-del JAR, con salto final LF. No es una firma. No se añade al interior del JAR.
-
-Los archivos ZIP/tar de código fuente que GitHub adjunta automáticamente serán
-una instantánea del **repositorio de distribución**. No contienen ni representan
-el código fuente de event_core ni acreditan su compilación reproducible.
+Los archivos fuente ZIP/tar automáticos de GitHub son del repositorio de distribución,
+no el código fuente de event_core. No se agregan manualmente como assets.

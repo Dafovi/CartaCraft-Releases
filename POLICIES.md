@@ -1,17 +1,17 @@
-# Políticas de distribución — alcance documental
+# Políticas de distribución de artefactos propios
 
 ## Nombres y versiones
 
 Cada artefacto propio tiene versionado y autorización independientes. Para el mod:
 tag `event-core-v<versión>`, archivo `event_core-<versión>.jar` y checksum
-`event_core-<versión>.jar.sha256`. Primera propuesta: event-core-v0.1.0.
+`event_core-<versión>.jar.sha256`. Primera release autorizada: event-core-v0.1.0.
 Minecraft/NeoForge/Java se declaran explícitamente; no se infiere compatibilidad
 entre versiones. No publicar otros artefactos por extensión de esta autorización.
 
 No usar latest, tags móviles, reemplazos silenciosos de assets ni selección por
 nombre aproximado. Una versión publicada fija bytes, tamaño, hash y avisos.
 El tag identifica un commit del repositorio de distribución; no afirma que ese
-commit haya compilado el mod. No se crean tags en esta fase.
+commit haya compilado el mod. Solo se autoriza el tag event-core-v0.1.0.
 
 ## Integridad e inmutabilidad
 
@@ -44,9 +44,9 @@ ejecutan ahora ni autorizan eliminación de objetos remotos.
 ## Derechos y avisos
 
 Dafovi confirmó la titularidad y autoridad sobre sus aportaciones propias y aprobó
-el contenido sustantivo de los términos, todavía pendientes de publicación y
-entrada en vigor. No se declara
-MIT para el conjunto ni se añade una licencia general al repositorio.
+los términos definitivos de event_core 0.1.0, que entran en vigor al publicarse
+su release pública. No se declara MIT para el conjunto ni se añade una licencia
+general al repositorio.
 Los archivos de plantilla NeoForged MDK conservan su MIT íntegro, copyright y
 derechos propios. Los términos candidatos no restringen esos derechos.
 
